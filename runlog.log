@@ -1,0 +1,85 @@
+Added file F:\uiautomator\project\Testgit\build.xml
+Buildfile: F:\uiautomator\project\Testgit\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at F:\uiautomator\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for testjar...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\uiautomator\project\Testgit\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to F:\uiautomator\project\Testgit\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: F:\uiautomator\project\Testgit\bin\classes
+      [dex] Converting compiled files and external libraries into F:\uiautomator\project\Testgit\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: F:\uiautomator\project\Testgit\bin\testjar.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+0 KB/s (4645 bytes in 5.083s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.testgit.Testgit
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testgit.Testgit:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testGit
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=com.testgit.Testgit
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testGit
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.559
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
